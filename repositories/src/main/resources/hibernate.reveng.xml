@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.org/dtd/hibernate-reverse-engineering-3.0.dtd" >
+<hibernate-reverse-engineering>
+
+    <type-mapping>
+        <sql-type jdbc-type="DATE" hibernate-type="java.sql.Timestamp" />
+        <sql-type jdbc-type="OTHER" hibernate-type="java.util.Date" />
+    </type-mapping>
+
+	
+    <table-filter match-name="bc_scroll" />
+    <table-filter match-name="bc_scroll_image" />
+    <table-filter match-name="bc_scroll_lookup" />
+    <table-filter match-name="bc_scroll_verse" />
+    <table-filter match-name="jps_tanakh" />
+    <table-filter match-name="torah_book" />
+    <table-filter match-name="torah_verse" />
+    <table-filter match-name="torah_verse_word" />
+   
+
+    <table name="bc_scroll">
+    </table>
+    <table name="bc_scroll_image">
+    </table>
+    <table name="bc_scroll_lookup">
+    </table>
+    <table name="bc_scroll_verse">
+    </table>
+    <table name="jps_tanakh">
+    </table>
+    <table name="torah_book">
+    </table>
+    <table name="torah_verse">
+    </table>
+    <table name="torah_verse_word">
+    </table>
+  
+
+</hibernate-reverse-engineering>
